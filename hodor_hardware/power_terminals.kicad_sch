@@ -1,0 +1,11205 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2aca5c04-67b6-492e-a0ae-e3ba9b647b6b")
+	(paper "A4")
+	(title_block
+		(title "HODOR (Highly flexible Open-source Door Operation Regulator)")
+		(date "2025-02-21")
+		(rev "00")
+		(company "smartintech.de")
+	)
+	(lib_symbols
+		(symbol "Connector:Screw_Terminal_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:TestPoint_Alt"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Alt"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point (alternative shape)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Alt_0_1"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -0.762 3.302) (xy 0 4.064) (xy 0.762 3.302) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Alt_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Converter_DCDC:TPS54240DRC"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 3.556 -11.938 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TPS54240DRC"
+				(at -8.89 -11.938 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SON:Texas_DRC0010J_ThermalVias"
+				(at 0 15.748 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps54240.pdf"
+				(at 0 21.336 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "3.5-V to 42-V 2.5A Step-Down DC DC Converter, VSON-10"
+				(at 0 18.542 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "DC-DC converter step-down buck 42V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Texas*DRC0010J*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPS54240DRC_1_1"
+				(rectangle
+					(start -10.16 10.16)
+					(end 10.16 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -12.7 7.62 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "SS/TR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "RT/CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -7.62 0)
+					(length 2.54)
+					(name "COMP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 7.62 180)
+					(length 2.54)
+					(name "PH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "BOOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "VSENSE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "PWRGD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D_AAK"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_AAK"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode, anode on pins 1 and 2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_AAK_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 2.54 2.54) (xy 2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_AAK_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D_Zener"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Zener"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Zener diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Zener_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Zener_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:L_Iron"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L_Iron"
+				(at 2.794 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor with iron core"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_Iron_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 2.54) (xy 1.016 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -2.54) (xy 1.524 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_Iron_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Hodor-rescue:+3V3-power"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "power_+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3-power_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3-power_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Hodor-rescue:+5V-power"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "power_+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V-power_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V-power_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Hodor-rescue:C_Polarized-Device"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized-Device"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized-Device_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized-Device_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Hodor-rescue:GND-power"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "power_GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND-power_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND-power_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Hodor-rescue:L_Ferrite-Device"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L_Ferrite-Device"
+				(at 2.794 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_Ferrite-Device_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.635 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.635 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.635 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.635 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 2.286) (xy 1.016 2.794)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.27) (xy 1.016 1.778)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0.254) (xy 1.016 0.762)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -0.762) (xy 1.016 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.778) (xy 1.016 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -2.794) (xy 1.016 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 2.794) (xy 1.524 2.286)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 1.778) (xy 1.524 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0.762) (xy 1.524 0.254)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -0.254) (xy 1.524 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.27) (xy 1.524 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -2.286) (xy 1.524 -2.794)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_Ferrite-Device_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Hodor-rescue:VBUS-power"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "power_VBUS"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VBUS-power_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS-power_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Hodor-rescue:VDC-power"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "power_VDC"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VDC-power_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDC-power_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "VDC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Regulator_Switching:TLV62569DBV"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.08 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TLV62569DBV"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 1.27 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv62569.pdf"
+				(at -6.35 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 2A, SOT-23-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Step-Down Buck DC-DC Regulator Adjustable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TLV62569DBV_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TLV62569DBV_1_1"
+				(pin power_in line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_FET:SiS443DN"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SiS443DN"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/63253/sis443dn.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "-35A Id, -40V Vds, P-Channel MOSFET, PowerPAK 1212-8 Single"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "P-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Vishay*PowerPAK*1212*Single*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SiS443DN_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SiS443DN_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "mm_parts:JLCPCB_ToolingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "JLCPCB_ToolingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "mm_parts_footprints:JLCPCB_ToolingHole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "JLCPCB Tooling Hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "JLCPCB tooling hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "JLCPCB_ToolingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "WARNING: R/C Values not calculated yet!"
+		(exclude_from_sim no)
+		(at 67.945 68.58 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "58de05b7-d89d-4cbf-a1c1-a9a7bf8f60dd")
+	)
+	(text "Voltage measurement V_{DC} and V_{BUS}"
+		(exclude_from_sim no)
+		(at 26.67 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac05af9e-4ac5-4b8a-8604-6d9ee8989739")
+	)
+	(text "Reverse polarity protection & Input filter"
+		(exclude_from_sim no)
+		(at 29.21 20.955 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bad366e8-a871-4de4-964e-f136703f1b45")
+	)
+	(text "Main supply BUS decoupling"
+		(exclude_from_sim no)
+		(at 113.03 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cbb78847-59f9-400c-9938-2d6d6a4c77a9")
+	)
+	(text "Test points"
+		(exclude_from_sim no)
+		(at 215.265 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4cbc0d5-7f04-4b9b-bbcb-062f6afa0b3c")
+	)
+	(junction
+		(at 99.695 31.115)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08a5e7a9-3a52-43ad-b4e2-692d27987476")
+	)
+	(junction
+		(at 146.05 79.375)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0acd96bd-ee2a-4ff4-81f1-84bf18b315e9")
+	)
+	(junction
+		(at 48.26 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c8d29a2-10e9-4dd7-9693-28e259420fa4")
+	)
+	(junction
+		(at 230.505 83.185)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12f7dfe4-93ba-4715-be97-cbe6202d3fb1")
+	)
+	(junction
+		(at 36.83 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "253e9843-c5e9-4480-a720-eecffb2bc3a2")
+	)
+	(junction
+		(at 55.88 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3901a9cf-d731-4d97-8097-b8a1d0550c1a")
+	)
+	(junction
+		(at 138.43 31.115)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b1f96dc-8613-4462-8814-0874886cb0c3")
+	)
+	(junction
+		(at 225.425 83.185)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3fdff2ad-6320-45e4-b54c-2b483d8f8341")
+	)
+	(junction
+		(at 92.71 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "477f6244-09d2-4948-aaf0-cdc9e397e765")
+	)
+	(junction
+		(at 182.245 83.185)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4be9c9be-35a9-4986-8c49-2e5161fca6de")
+	)
+	(junction
+		(at 240.03 83.185)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51008944-5a00-4cb7-85f7-6034567ddb6f")
+	)
+	(junction
+		(at 48.26 40.005)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a59438e-07fe-45ae-9512-0ea48ef95596")
+	)
+	(junction
+		(at 46.99 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c8b791e-ed93-4a54-9b8b-c4a887d0b03d")
+	)
+	(junction
+		(at 102.87 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63f86e81-f087-4b0f-94ba-6353ea62f5d0")
+	)
+	(junction
+		(at 83.82 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66c9e860-9a25-4d5f-b38c-99037ad7a2b9")
+	)
+	(junction
+		(at 80.01 121.285)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6798bd79-be8c-4f1e-a59f-ea9287e33917")
+	)
+	(junction
+		(at 70.485 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ea233f6-eee1-440e-a6e1-38f4791a16b8")
+	)
+	(junction
+		(at 190.5 83.185)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72bccd7d-2689-48cb-9da1-fd3a9fd98e95")
+	)
+	(junction
+		(at 111.76 79.375)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7359fc9e-aca2-4014-8f4b-c908ed13a1b0")
+	)
+	(junction
+		(at 137.16 79.375)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78a623fb-2fe3-42f7-84fe-e6e40b1aad20")
+	)
+	(junction
+		(at 28.575 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81fceac5-3034-4406-86a9-668cfa0a1c59")
+	)
+	(junction
+		(at 62.23 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "852e7bad-e97c-4327-91b3-d70b1996bfa0")
+	)
+	(junction
+		(at 86.995 31.115)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8580a1be-34ba-4216-8b36-010f13f89567")
+	)
+	(junction
+		(at 28.575 81.915)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87eb021a-4434-404c-8771-b3e0e251983d")
+	)
+	(junction
+		(at 86.995 50.165)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8943e237-2ae5-471f-953c-ae02097b4312")
+	)
+	(junction
+		(at 101.6 79.375)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c5e12e3-7a92-4024-a2c6-7c144fa69e5e")
+	)
+	(junction
+		(at 71.755 50.165)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91025a81-d2f9-4990-af3b-59a5c14d19c7")
+	)
+	(junction
+		(at 240.03 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92b3eff2-c7f8-4fa6-b160-5ba898c7e00f")
+	)
+	(junction
+		(at 48.26 81.915)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d87ec6d-a204-4ed2-a38c-d5192ebed620")
+	)
+	(junction
+		(at 137.16 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af4a9c60-ed67-4dc8-8f0d-81c58851b3ba")
+	)
+	(junction
+		(at 103.505 31.115)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6797dd6-1c75-465a-ac0d-5fd669fe9f9d")
+	)
+	(junction
+		(at 38.735 81.915)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b960e9f6-175a-450d-a9af-11068fb146bc")
+	)
+	(junction
+		(at 99.695 50.165)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbaa8930-e171-47c5-b824-8f126cef99db")
+	)
+	(junction
+		(at 27.94 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf457ab3-b048-4ceb-a087-ca0813793afd")
+	)
+	(junction
+		(at 153.035 50.165)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c337bc6c-da8d-4da8-af44-70eaaf272819")
+	)
+	(junction
+		(at 230.505 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6dc20f9-647c-4602-a44f-624af2da24fb")
+	)
+	(junction
+		(at 146.05 92.075)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc8ddddc-0c56-4ea5-8220-05a527b20637")
+	)
+	(junction
+		(at 138.43 50.165)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cee25f29-aee9-4e07-8d1c-ef9ea075b1cf")
+	)
+	(junction
+		(at 153.035 31.115)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d529fac3-d5a8-405a-93b9-14cb97a40933")
+	)
+	(junction
+		(at 57.15 31.115)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc3967b9-c45b-4df2-8ba6-ca369a0f859d")
+	)
+	(junction
+		(at 127 79.375)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc8cd498-3408-45a0-b72b-7b0b7547d4ae")
+	)
+	(junction
+		(at 71.755 31.115)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f02b3c8a-f01a-4e32-9cd0-43db7e89eca4")
+	)
+	(junction
+		(at 48.26 50.165)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f12e2ce5-7c39-4b7e-9977-31ead9d8bdda")
+	)
+	(junction
+		(at 109.855 31.115)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc2ee200-ade5-4714-a8fe-268362c7ad9f")
+	)
+	(junction
+		(at 123.19 31.115)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc332d7a-40ef-42df-8e0d-9e4971aa7abf")
+	)
+	(junction
+		(at 240.03 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fde347b2-125e-424f-9722-2c070bf891cf")
+	)
+	(no_connect
+		(at 95.885 97.155)
+		(uuid "e2b875c1-1a1c-4110-a1a2-5f15d3268e05")
+	)
+	(wire
+		(pts
+			(xy 226.06 32.385) (xy 220.98 32.385)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01b83d89-8e64-4821-afcc-e21bb8b211e2")
+	)
+	(wire
+		(pts
+			(xy 48.26 90.17) (xy 48.26 89.535)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "042ca833-00c9-4df4-b2b5-bbaac1c2a019")
+	)
+	(wire
+		(pts
+			(xy 213.36 92.71) (xy 240.03 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0619fdbc-bca3-4717-882a-d773d254a5f6")
+	)
+	(wire
+		(pts
+			(xy 225.425 83.185) (xy 230.505 83.185)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07eb300c-aeb5-450b-b3cc-62e5e9c8477c")
+	)
+	(wire
+		(pts
+			(xy 86.995 50.165) (xy 99.695 50.165)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "086ad3ef-ed4e-43e1-b2ad-534c7a37a8e1")
+	)
+	(wire
+		(pts
+			(xy 101.6 79.375) (xy 111.76 79.375)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0be586dd-1784-4a00-a958-174a0f963a39")
+	)
+	(wire
+		(pts
+			(xy 83.82 168.91) (xy 83.82 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cde3d21-917e-4ea5-9487-7985b514cc2c")
+	)
+	(wire
+		(pts
+			(xy 38.735 50.165) (xy 48.26 50.165)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dfb8e11-4ef2-4331-968d-515166ce0bda")
+	)
+	(wire
+		(pts
+			(xy 57.15 31.115) (xy 71.755 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e9cfde5-9b85-4a94-aac7-6ba856f79d32")
+	)
+	(wire
+		(pts
+			(xy 111.125 33.655) (xy 109.855 33.655)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0faa796e-d738-4e9b-8351-fedcab248bc5")
+	)
+	(wire
+		(pts
+			(xy 38.735 89.535) (xy 38.735 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1226b4a0-170c-4c49-a97e-2931ab625995")
+	)
+	(wire
+		(pts
+			(xy 123.825 79.375) (xy 127 79.375)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12ba8e07-3311-4736-9792-65d7872e78b3")
+	)
+	(wire
+		(pts
+			(xy 225.425 90.805) (xy 225.425 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13257f21-c759-4f83-8664-dbd86795708d")
+	)
+	(wire
+		(pts
+			(xy 102.87 171.45) (xy 102.87 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15f8fa7d-bf1e-4c50-8ff1-d8129e19d6ba")
+	)
+	(wire
+		(pts
+			(xy 55.88 92.075) (xy 55.88 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16292aff-645a-42b0-ac38-a209771fbb65")
+	)
+	(wire
+		(pts
+			(xy 36.83 170.18) (xy 46.99 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16961d4e-2909-40ba-beba-71d78301ca9b")
+	)
+	(wire
+		(pts
+			(xy 138.43 38.735) (xy 138.43 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19da3632-6c99-4bab-b455-76977c92d5f0")
+	)
+	(wire
+		(pts
+			(xy 138.43 50.165) (xy 138.43 46.355)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a1cdf7c-8a47-49b7-8a5a-bbc0837168f9")
+	)
+	(wire
+		(pts
+			(xy 62.23 111.76) (xy 62.23 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28df0f13-1942-4bac-b16e-be12742d94ef")
+	)
+	(wire
+		(pts
+			(xy 62.23 94.615) (xy 62.23 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a6c544f-929b-4190-a5a8-3f2f1020d1bc")
+	)
+	(wire
+		(pts
+			(xy 86.995 38.735) (xy 86.995 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b914de1-4f77-4f1e-a4b7-1eaabc14eeb3")
+	)
+	(wire
+		(pts
+			(xy 71.755 46.355) (xy 71.755 50.165)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c450a9b-8a92-415f-8573-99c08007f340")
+	)
+	(wire
+		(pts
+			(xy 92.71 170.18) (xy 102.87 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d14c356-654a-411d-be47-bb65425ff31c")
+	)
+	(wire
+		(pts
+			(xy 71.755 31.115) (xy 76.835 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d53f133-0222-4cb1-85d9-2b35bf2547e1")
+	)
+	(wire
+		(pts
+			(xy 146.05 79.375) (xy 146.05 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dcb7399-76bb-4059-924a-aa43e990a7b2")
+	)
+	(wire
+		(pts
+			(xy 190.5 85.725) (xy 190.5 83.185)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ff71e01-66fe-4fdf-8cd7-85a12c4821ca")
+	)
+	(wire
+		(pts
+			(xy 71.755 31.115) (xy 71.755 38.735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "322c0cb3-71e5-4b79-b74d-4ce07edbd0a0")
+	)
+	(wire
+		(pts
+			(xy 194.945 85.725) (xy 190.5 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35d8a8ed-9a54-4546-a8da-20b59fb76be9")
+	)
+	(wire
+		(pts
+			(xy 153.035 50.165) (xy 153.035 52.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36fa01e1-001a-4305-8c25-6dd520c35221")
+	)
+	(wire
+		(pts
+			(xy 220.98 83.185) (xy 225.425 83.185)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "377ffa2d-54f0-42dc-a763-56e305c5a73f")
+	)
+	(wire
+		(pts
+			(xy 27.94 179.07) (xy 27.94 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3901805a-bb84-44d1-a313-6ef9da8ff0a7")
+	)
+	(wire
+		(pts
+			(xy 210.185 83.185) (xy 213.36 83.185)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a294ab7-ffde-450c-b259-dc02e721d130")
+	)
+	(wire
+		(pts
+			(xy 146.05 76.2) (xy 146.05 79.375)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b7f447b-2deb-4a1c-9a4e-4b903a16c875")
+	)
+	(wire
+		(pts
+			(xy 190.5 83.185) (xy 194.945 83.185)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f11588e-9f36-46e9-9469-d50d022b6939")
+	)
+	(wire
+		(pts
+			(xy 226.06 50.165) (xy 215.9 50.165)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "414ee7b8-e9c2-4be1-989d-0d58546619cc")
+	)
+	(wire
+		(pts
+			(xy 83.82 170.18) (xy 83.82 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41c9ce14-8fa1-4d4b-b58d-f9cfa13144e4")
+	)
+	(wire
+		(pts
+			(xy 103.505 31.115) (xy 109.855 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a87bfaf-7697-41f5-9536-f7118f19f278")
+	)
+	(wire
+		(pts
+			(xy 102.87 170.18) (xy 113.03 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53f0e134-f77b-433b-8874-776c79233db9")
+	)
+	(wire
+		(pts
+			(xy 34.29 33.655) (xy 38.735 33.655)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b7a18cd-3330-40b7-9795-3dd500f4603c")
+	)
+	(wire
+		(pts
+			(xy 111.76 86.995) (xy 111.76 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bdb21ec-4976-43ad-8c6a-9576063ccd44")
+	)
+	(wire
+		(pts
+			(xy 240.03 100.33) (xy 230.505 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dd9141a-81f6-4fda-8eec-1a82e688d029")
+	)
+	(wire
+		(pts
+			(xy 153.035 45.72) (xy 153.035 50.165)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e97b7df-c861-4992-8a4a-4cdab8dacc75")
+	)
+	(wire
+		(pts
+			(xy 38.735 33.655) (xy 38.735 50.165)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "653d8a1a-f323-4862-9c37-76461a92162f")
+	)
+	(wire
+		(pts
+			(xy 153.035 31.115) (xy 153.035 27.305)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67f10c6d-0826-4f3c-b067-88ab4b33f5fa")
+	)
+	(wire
+		(pts
+			(xy 80.01 116.84) (xy 80.01 121.285)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "682d8baa-231f-435c-b552-0f5dd018be2e")
+	)
+	(wire
+		(pts
+			(xy 99.695 31.115) (xy 99.695 38.735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69c5ad44-31bf-4d59-a131-b94a0d024ad9")
+	)
+	(wire
+		(pts
+			(xy 99.695 50.165) (xy 99.695 51.435)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c9bee2a-10e9-4645-af55-c754893708db")
+	)
+	(wire
+		(pts
+			(xy 52.705 90.17) (xy 48.26 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cc9366c-85ce-49bb-a1e8-58fc9b831c77")
+	)
+	(wire
+		(pts
+			(xy 123.19 50.165) (xy 123.19 46.355)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eaf9d2c-bfaf-4695-a63a-f901a109adc8")
+	)
+	(wire
+		(pts
+			(xy 138.43 31.115) (xy 153.035 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f825e00-452b-491e-b791-93aeadb1e3d4")
+	)
+	(wire
+		(pts
+			(xy 182.245 83.185) (xy 190.5 83.185)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70a0b318-b2d8-4e14-90b1-9832d47a81bc")
+	)
+	(wire
+		(pts
+			(xy 83.82 179.07) (xy 83.82 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72272257-0abd-45e9-98fd-870bd7295bea")
+	)
+	(wire
+		(pts
+			(xy 215.9 50.165) (xy 215.9 52.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77f2095c-b26f-4991-a9bd-0927cf3595c6")
+	)
+	(wire
+		(pts
+			(xy 137.16 79.375) (xy 137.16 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "791b2fc8-078c-4b1b-a9fd-5c71669ed566")
+	)
+	(wire
+		(pts
+			(xy 99.695 31.115) (xy 103.505 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79cf477e-b157-476b-b919-f4c2120801e9")
+	)
+	(wire
+		(pts
+			(xy 55.88 113.03) (xy 62.23 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b6f7639-20b9-4f4b-a627-64d5832a56e7")
+	)
+	(wire
+		(pts
+			(xy 99.695 46.355) (xy 99.695 50.165)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f382cff-5ed7-4491-8b53-39e9e4d98423")
+	)
+	(wire
+		(pts
+			(xy 48.26 81.915) (xy 70.485 81.915)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f843e5d-2765-43d0-b7c3-e0c8cda77e5c")
+	)
+	(wire
+		(pts
+			(xy 70.485 86.995) (xy 52.705 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "813ca5de-6728-4655-b5c7-e2a7b3964c93")
+	)
+	(wire
+		(pts
+			(xy 137.16 88.9) (xy 137.16 99.695)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "833ca489-d457-43ad-af75-71cc914739fe")
+	)
+	(wire
+		(pts
+			(xy 213.36 85.725) (xy 213.36 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "875e03aa-e007-42e7-9cb8-b3335b607602")
+	)
+	(wire
+		(pts
+			(xy 70.485 102.87) (xy 80.01 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87c70073-d03d-4f32-b8ab-d74a2c5ba9b0")
+	)
+	(wire
+		(pts
+			(xy 215.9 41.275) (xy 215.9 27.305)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8893ae32-c5b2-44cc-a289-4e1aaf7dec85")
+	)
+	(wire
+		(pts
+			(xy 109.855 31.115) (xy 109.855 33.655)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b037db4-8fce-49d4-9424-320ae81e0adb")
+	)
+	(wire
+		(pts
+			(xy 48.26 40.005) (xy 57.15 40.005)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b9d9f7d-2933-4b8e-8294-07364bd8d3e1")
+	)
+	(wire
+		(pts
+			(xy 70.485 104.775) (xy 70.485 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f61c00a-1017-4666-9f75-1e7d9e8761ca")
+	)
+	(wire
+		(pts
+			(xy 34.29 31.115) (xy 43.18 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9076744a-b5df-4a8c-8cb2-358647408053")
+	)
+	(wire
+		(pts
+			(xy 48.26 40.005) (xy 48.26 41.275)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92775e48-6699-41f8-a42e-a252c181ac18")
+	)
+	(wire
+		(pts
+			(xy 182.245 78.105) (xy 182.245 83.185)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93962993-a5b2-4ac6-80c7-25cc1df7a5b9")
+	)
+	(wire
+		(pts
+			(xy 226.06 41.275) (xy 215.9 41.275)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99b90db2-4029-4d51-9ee7-3eb25f8bc494")
+	)
+	(wire
+		(pts
+			(xy 46.99 170.18) (xy 57.15 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e01b611-8c04-4947-8c80-4bdf84b02bda")
+	)
+	(wire
+		(pts
+			(xy 27.94 170.18) (xy 36.83 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e49634c-49f5-4ab9-85ce-40c54ea42a73")
+	)
+	(wire
+		(pts
+			(xy 99.695 31.115) (xy 99.695 27.305)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eaae00d-9f3d-4245-951d-3313ce68d1d9")
+	)
+	(wire
+		(pts
+			(xy 28.575 91.44) (xy 28.575 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a09b44fd-0ad3-4a92-8dcc-d1be3332fa29")
+	)
+	(wire
+		(pts
+			(xy 48.26 38.735) (xy 48.26 40.005)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a21951d7-3a0e-45c5-bc34-3f75dba543e3")
+	)
+	(wire
+		(pts
+			(xy 83.185 104.14) (xy 83.185 102.235)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a38370d0-c3d8-4ba8-9299-5401f4854eee")
+	)
+	(wire
+		(pts
+			(xy 48.26 100.965) (xy 48.26 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4b41562-4024-4a21-89a4-1fc60da4e3d4")
+	)
+	(wire
+		(pts
+			(xy 84.455 31.115) (xy 86.995 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a534ee1e-32e3-42e8-ae14-1c4526275317")
+	)
+	(wire
+		(pts
+			(xy 48.26 50.165) (xy 48.26 48.895)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acc54098-31ce-4ac2-aaf3-19dcf63ddae6")
+	)
+	(wire
+		(pts
+			(xy 95.885 81.915) (xy 95.885 79.375)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad4e55a2-f40a-4d0e-b8ac-6eaec8aa16e3")
+	)
+	(wire
+		(pts
+			(xy 111.76 79.375) (xy 116.205 79.375)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aef85f77-a197-4d74-91e5-50dc5be33674")
+	)
+	(wire
+		(pts
+			(xy 138.43 50.165) (xy 123.19 50.165)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1e0d9f5-e9eb-4700-87cd-860008994058")
+	)
+	(wire
+		(pts
+			(xy 83.82 170.18) (xy 92.71 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b27f7507-66b2-4583-aa09-f950968b4a32")
+	)
+	(wire
+		(pts
+			(xy 70.485 121.285) (xy 80.01 121.285)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b377bba8-c64b-4c40-b086-117ff424d33e")
+	)
+	(wire
+		(pts
+			(xy 127 88.9) (xy 137.16 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b39a9c17-dfb7-47c1-8a58-b9d59dbf0330")
+	)
+	(wire
+		(pts
+			(xy 28.575 78.74) (xy 28.575 81.915)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b46bce82-1dab-4c48-856c-0139c3b7f925")
+	)
+	(wire
+		(pts
+			(xy 102.87 179.07) (xy 102.87 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b57b34b5-ed19-426c-baa9-b500f6387b79")
+	)
+	(wire
+		(pts
+			(xy 127 79.375) (xy 137.16 79.375)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8601147-97ee-4527-b5a0-0968299c28c9")
+	)
+	(wire
+		(pts
+			(xy 36.83 179.07) (xy 36.83 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba5c4474-fbc2-441d-a1f2-2521ef9afb25")
+	)
+	(wire
+		(pts
+			(xy 27.94 157.48) (xy 27.94 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bad9f50f-44e1-49a0-a9ab-8511288cacfd")
+	)
+	(wire
+		(pts
+			(xy 138.43 50.165) (xy 153.035 50.165)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb331cd7-ee26-4a84-8fec-89bd4573a4c0")
+	)
+	(wire
+		(pts
+			(xy 48.26 90.17) (xy 48.26 93.345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be3b38fc-6119-4960-b182-eaed23c5b439")
+	)
+	(wire
+		(pts
+			(xy 57.15 31.115) (xy 57.15 32.385)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c03d74ad-56ce-4d12-b5b9-db73fe3e4b69")
+	)
+	(wire
+		(pts
+			(xy 92.71 171.45) (xy 92.71 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0a13166-3366-4fa3-a31c-e0b08b58e0c9")
+	)
+	(wire
+		(pts
+			(xy 38.735 81.915) (xy 48.26 81.915)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4995ccb-6ee9-42d9-9c06-8ff73f849b4f")
+	)
+	(wire
+		(pts
+			(xy 123.19 38.735) (xy 123.19 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c656f854-0ac8-4995-a87c-ab2c18eadd66")
+	)
+	(wire
+		(pts
+			(xy 71.755 50.165) (xy 86.995 50.165)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6c6555c-552f-40b7-857c-39a12f75d80f")
+	)
+	(wire
+		(pts
+			(xy 230.505 83.185) (xy 240.03 83.185)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca057ec7-4975-4e6c-9cfb-ab0a2dca278f")
+	)
+	(wire
+		(pts
+			(xy 153.035 38.1) (xy 153.035 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cabe7049-cb8e-4b63-a48c-6fc1de4de7dc")
+	)
+	(wire
+		(pts
+			(xy 48.26 50.165) (xy 71.755 50.165)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccb836e5-6b6a-42bb-ad23-2d07379aea8b")
+	)
+	(wire
+		(pts
+			(xy 52.705 86.995) (xy 52.705 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce5dd46b-2192-44d2-9c37-8ab9c7319fd9")
+	)
+	(wire
+		(pts
+			(xy 95.885 86.995) (xy 101.6 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cec096fb-eaaa-4e20-91e5-04151151a97d")
+	)
+	(wire
+		(pts
+			(xy 28.575 81.915) (xy 38.735 81.915)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf63a35e-528e-4b11-bbf7-c29d3654ba18")
+	)
+	(wire
+		(pts
+			(xy 86.995 46.355) (xy 86.995 50.165)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf6870b0-6457-42e1-beca-ad1c71cc9170")
+	)
+	(wire
+		(pts
+			(xy 109.855 31.115) (xy 111.125 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf7e1a0c-390e-4f78-9118-81d48019d3c4")
+	)
+	(wire
+		(pts
+			(xy 80.01 109.22) (xy 80.01 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d13e2196-c1f9-413b-bd6e-a8c1ef8bab1c")
+	)
+	(wire
+		(pts
+			(xy 127 79.375) (xy 127 80.645)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d14d43c3-ff5a-4f89-ada9-b7b71630a39c")
+	)
+	(wire
+		(pts
+			(xy 70.485 112.395) (xy 70.485 113.665)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3855f7d-2c21-4d47-be1b-94693ced5aac")
+	)
+	(wire
+		(pts
+			(xy 95.885 92.075) (xy 146.05 92.075)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7d2e744-7a4a-42ab-a981-f1937b86606c")
+	)
+	(wire
+		(pts
+			(xy 46.99 179.07) (xy 46.99 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7e2d245-88cf-4b6c-96ba-e75d24d20e1c")
+	)
+	(wire
+		(pts
+			(xy 120.015 31.115) (xy 123.19 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7ec5670-3508-4a38-a03a-d919eab8089c")
+	)
+	(wire
+		(pts
+			(xy 127 88.265) (xy 127 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db846d76-bb4a-4af6-b9ee-24a9d2e01ad7")
+	)
+	(wire
+		(pts
+			(xy 70.485 97.155) (xy 70.485 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc68d0a9-4730-47bd-85be-efa71ad8199f")
+	)
+	(wire
+		(pts
+			(xy 70.485 94.615) (xy 62.23 94.615)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd167962-f45b-4b02-ab13-8e7f3a2d8f85")
+	)
+	(wire
+		(pts
+			(xy 202.565 98.425) (xy 202.565 93.345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddca84aa-e359-4f14-935b-afd7fc2ff0a1")
+	)
+	(wire
+		(pts
+			(xy 46.99 171.45) (xy 46.99 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de8c6117-ce5d-44d9-8a5b-41771d9d3902")
+	)
+	(wire
+		(pts
+			(xy 95.885 79.375) (xy 101.6 79.375)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfa7a719-2b7d-4ce5-a890-e5f7353652a1")
+	)
+	(wire
+		(pts
+			(xy 240.03 90.805) (xy 240.03 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0a70c0f-087d-41e6-98f4-f9f6c0de07f1")
+	)
+	(wire
+		(pts
+			(xy 83.82 157.48) (xy 83.82 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0ef0193-3287-4e2a-8c5f-19bf51d621bc")
+	)
+	(wire
+		(pts
+			(xy 146.05 90.17) (xy 146.05 92.075)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2bf836a-3214-4ebc-9793-44ce8414ec03")
+	)
+	(wire
+		(pts
+			(xy 240.03 78.74) (xy 240.03 83.185)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3544a99-a826-47ed-aa90-195a2bd4d201")
+	)
+	(wire
+		(pts
+			(xy 53.34 31.115) (xy 57.15 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e45fffe5-3595-4d37-9c5c-d59235ea786b")
+	)
+	(wire
+		(pts
+			(xy 27.94 170.18) (xy 27.94 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4a84585-4f7b-49f1-a6f9-94f1b9d0a068")
+	)
+	(wire
+		(pts
+			(xy 28.575 89.535) (xy 28.575 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8179a04-3793-44c4-b046-9f6ab1fc058b")
+	)
+	(wire
+		(pts
+			(xy 86.995 31.115) (xy 99.695 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8c15a86-4421-4a18-bc39-7e1361eae471")
+	)
+	(wire
+		(pts
+			(xy 70.485 92.075) (xy 55.88 92.075)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eba118a8-4cf9-41e0-a95c-8c13b999d051")
+	)
+	(wire
+		(pts
+			(xy 92.71 179.07) (xy 92.71 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ede51526-d381-4232-a05b-adf83e59187c")
+	)
+	(wire
+		(pts
+			(xy 123.19 31.115) (xy 138.43 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f03802ca-64df-478b-9b40-3ecab0b4ca61")
+	)
+	(wire
+		(pts
+			(xy 48.26 113.03) (xy 55.88 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1781322-9581-453b-9c76-013a6436f378")
+	)
+	(wire
+		(pts
+			(xy 55.88 105.41) (xy 55.88 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f258d22e-2969-4765-a9f8-a7aa8f27cf05")
+	)
+	(wire
+		(pts
+			(xy 220.98 32.385) (xy 220.98 27.305)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2722218-e205-4997-afa5-03997065a72e")
+	)
+	(wire
+		(pts
+			(xy 225.425 100.33) (xy 230.505 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f37c135c-3479-4e22-98d5-fda59360e5b4")
+	)
+	(wire
+		(pts
+			(xy 182.245 90.805) (xy 182.245 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3b5b4f6-8f3f-4118-a43f-2f10d1634227")
+	)
+	(wire
+		(pts
+			(xy 36.83 171.45) (xy 36.83 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f533b6a4-f4f1-4c98-b3f1-3e06305bd549")
+	)
+	(wire
+		(pts
+			(xy 230.505 100.33) (xy 230.505 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8ce0953-42df-488b-85b5-5181f201392d")
+	)
+	(wire
+		(pts
+			(xy 210.185 85.725) (xy 213.36 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa75a54b-9e86-48ed-b220-bc6a97a6fd91")
+	)
+	(wire
+		(pts
+			(xy 137.16 79.375) (xy 146.05 79.375)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb5831fe-d47a-428b-8852-e7267c5b1ed9")
+	)
+	(wire
+		(pts
+			(xy 38.735 91.44) (xy 28.575 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc4f6715-b949-405d-80fc-5683235030ad")
+	)
+	(wire
+		(pts
+			(xy 80.01 121.285) (xy 80.01 122.555)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe2081fb-9013-4a2a-b876-bc74371f3321")
+	)
+	(wire
+		(pts
+			(xy 27.94 168.91) (xy 27.94 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feaea418-8c68-44ec-b212-c865f30d8658")
+	)
+	(table
+		(column_count 2)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 10.16 10.16)
+		(row_heights 2.54 2.54 2.54 2.54 2.54)
+		(cells
+			(table_cell "V_{In}"
+				(exclude_from_sim no)
+				(at 26.67 135.89 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "37e10097-604b-49f6-9330-e0fb7271a3c2")
+			)
+			(table_cell "V_{Sense}"
+				(exclude_from_sim no)
+				(at 36.83 135.89 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "af2080fd-4c57-49fd-9dd0-3580bba88314")
+			)
+			(table_cell "12 V"
+				(exclude_from_sim no)
+				(at 26.67 138.43 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "d83d3bdf-db17-42e7-aae8-de72b742e5cd")
+			)
+			(table_cell "1,19 V"
+				(exclude_from_sim no)
+				(at 36.83 138.43 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "e1a93f11-93db-4ec6-9207-d90e236fe557")
+			)
+			(table_cell "18 V"
+				(exclude_from_sim no)
+				(at 26.67 140.97 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "403adba5-d227-4342-bd57-836b3b3294a0")
+			)
+			(table_cell "1,78 V"
+				(exclude_from_sim no)
+				(at 36.83 140.97 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "a01970fa-e4f6-4a46-ae8b-b792e62bd2cd")
+			)
+			(table_cell "24 V"
+				(exclude_from_sim no)
+				(at 26.67 143.51 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "bbe5f5c5-ffc1-4763-b68d-52dd48209491")
+			)
+			(table_cell "2,38 V"
+				(exclude_from_sim no)
+				(at 36.83 143.51 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "aae5f3ab-b0dc-4893-8bf0-382cbf4ec240")
+			)
+			(table_cell "30 V"
+				(exclude_from_sim no)
+				(at 26.67 146.05 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "f0d77b22-3acd-4c01-9415-8e8b826782e7")
+			)
+			(table_cell "2,97 V"
+				(exclude_from_sim no)
+				(at 36.83 146.05 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "aab4c519-b1dc-4814-b698-f9194712cdb8")
+			)
+		)
+	)
+	(hierarchical_label "V_{BUS}_SENSE"
+		(shape output)
+		(at 113.03 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "295a0474-26fc-40c3-a1bc-fa2b5b697e55")
+	)
+	(hierarchical_label "V_{DC}_SENSE"
+		(shape output)
+		(at 57.15 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aab2bd3d-71f2-48fa-b780-b9b08b20be75")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 264.16 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060003b24")
+		(property "Reference" "H3"
+			(at 266.7 142.3416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 266.7 144.653 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 264.16 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 264.16 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 248.92 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000600189f4")
+		(property "Reference" "FID2"
+			(at 251.079 142.3416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 251.079 144.653 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 248.92 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 248.92 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "FID2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 248.92 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060018e9b")
+		(property "Reference" "FID1"
+			(at 251.079 149.9616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 251.079 152.273 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 248.92 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 248.92 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "FID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 248.92 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060019057")
+		(property "Reference" "FID3"
+			(at 251.079 157.5816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 251.079 159.893 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 248.92 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 248.92 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "FID3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hodor-rescue:VDC-power")
+		(at 99.695 27.305 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060099a1d")
+		(property "Reference" "#PWR099"
+			(at 99.695 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_{DC}"
+			(at 100.076 22.9108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.695 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.695 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.695 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "901bc7db-8803-4665-9282-21ef3f4b7812")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "#PWR099")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hodor-rescue:VDC-power")
+		(at 27.94 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006009aa20")
+		(property "Reference" "#PWR058"
+			(at 27.94 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_{DC}"
+			(at 28.321 153.0858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11951319-7ecb-4d59-a4f9-c6413db75c3a")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hodor-rescue:C_Polarized-Device")
+		(at 123.19 42.545 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060136815")
+		(property "Reference" "C35"
+			(at 126.1872 41.3766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u/50V"
+			(at 126.1872 43.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
+			(at 124.1552 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f765ff6-2188-4f36-a07f-82aafc607333")
+		)
+		(pin "2"
+			(uuid "c8e025e1-d669-41e1-a14a-093f1981e997")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 153.035 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000601375fc")
+		(property "Reference" "C42"
+			(at 155.956 40.7416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n/50V"
+			(at 155.956 43.053 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 154.0002 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.035 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 153.035 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a08fc9f1-fd8d-44a6-8428-8d5294c5f329")
+		)
+		(pin "1"
+			(uuid "fec49648-97b5-4163-a8c2-a25aab33fd77")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hodor-rescue:C_Polarized-Device")
+		(at 138.43 42.545 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060137d3f")
+		(property "Reference" "C40"
+			(at 141.4272 41.3766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u/50V"
+			(at 141.4272 43.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
+			(at 139.3952 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "994a73d2-f22d-4e2a-a6cf-65baf6ea13b2")
+		)
+		(pin "1"
+			(uuid "4d36f077-b3b1-4c8c-8819-799ddde36a87")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hodor-rescue:GND-power")
+		(at 153.035 52.705 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006015e314")
+		(property "Reference" "#PWR068"
+			(at 153.035 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.162 57.0992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.035 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.035 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.035 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d4a0163-0490-4398-8a74-90bff1545fea")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hodor-rescue:GND-power")
+		(at 99.695 51.435 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006024fdc0")
+		(property "Reference" "#PWR0106"
+			(at 99.695 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.822 55.8292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.695 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.695 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.695 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8095ee2c-8b77-4399-a790-785f45c686ff")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:SiS443DN")
+		(at 48.26 33.655 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060250dd0")
+		(property "Reference" "Q1"
+			(at 48.26 24.9682 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SiS443DN"
+			(at 48.26 27.2796 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
+			(at 50.165 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/63253/sis443dn.pdf"
+			(at 48.26 33.655 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-35A Id, -40V Vds, P-Channel MOSFET, PowerPAK 1212-8 Single"
+			(at 48.26 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2ea5c4ec-1b66-41c0-a51b-79ec4ba0c966")
+		)
+		(pin "3"
+			(uuid "c825d38c-c43c-4f7f-b348-dc17fefba85f")
+		)
+		(pin "4"
+			(uuid "44089418-d572-4518-82c0-50c06f71f01b")
+		)
+		(pin "1"
+			(uuid "2840b5ac-4448-42a9-808d-f73b2e67b1e7")
+		)
+		(pin "5"
+			(uuid "d9d39196-4484-45f6-a4f1-b4ed9090d908")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 48.26 45.085 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000602527bf")
+		(property "Reference" "R3"
+			(at 50.038 43.9166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 50.038 46.228 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 46.482 45.085 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 48.26 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b28b688d-a5e7-4939-844e-126075db0a36")
+		)
+		(pin "2"
+			(uuid "2e39e702-c78a-46d0-835a-161e6800d193")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 57.15 36.195 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060252ea5")
+		(property "Reference" "D3"
+			(at 59.182 35.0266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BCX84C15V"
+			(at 59.182 37.338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 57.15 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 57.15 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a28970a-03f5-48df-bfa9-e5c574d7792c")
+		)
+		(pin "2"
+			(uuid "ba7b0cba-ab2b-4a4b-ab57-de4bc88dba3c")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 86.995 42.545 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060258c19")
+		(property "Reference" "C15"
+			(at 89.916 41.3766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u/50V"
+			(at 89.916 43.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 87.9602 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.995 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 86.995 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ea60b84-6e9a-44d3-80ad-aa92e25889a9")
+		)
+		(pin "2"
+			(uuid "29a80c86-82c9-4fab-95eb-1bc6a462dce4")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hodor-rescue:C_Polarized-Device")
+		(at 99.695 42.545 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000602593ba")
+		(property "Reference" "C9"
+			(at 102.6922 41.3766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u/50V"
+			(at 102.6922 43.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
+			(at 100.6602 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.695 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.695 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1584cc0f-4094-4c60-8c18-28231c0bd8ea")
+		)
+		(pin "2"
+			(uuid "b04c5ffb-7cc9-4980-91af-5a5d375172b8")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 27.94 165.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000602c40b7")
+		(property "Reference" "R21"
+			(at 33.1978 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "18.2k"
+			(at 30.8864 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 29.718 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 27.94 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0c193861-7a25-4e79-be18-834758d765f9")
+		)
+		(pin "1"
+			(uuid "9057654b-d3ab-4ef5-93a0-61a33f031d73")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 27.94 175.26 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000602c40bd")
+		(property "Reference" "R22"
+			(at 33.1978 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k"
+			(at 30.8864 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 29.718 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 27.94 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d70eab67-fb8b-4113-b543-e0c9f548e270")
+		)
+		(pin "2"
+			(uuid "15835bef-808f-4762-805d-dee68ab9b8d9")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 36.83 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000602c40c3")
+		(property "Reference" "C10"
+			(at 39.751 174.0916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 39.751 176.403 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 37.7952 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 36.83 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "823b4b50-0c41-4ebc-a6ae-5e49923c186f")
+		)
+		(pin "1"
+			(uuid "bfeec0c5-902c-44b9-bdee-71d58be9242a")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hodor-rescue:GND-power")
+		(at 27.94 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000602c40c9")
+		(property "Reference" "#PWR0108"
+			(at 27.94 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 28.067 186.0042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c798478-474c-4878-89c2-a7e182a6af3d")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hodor-rescue:GND-power")
+		(at 36.83 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000602c40cf")
+		(property "Reference" "#PWR0109"
+			(at 36.83 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.957 186.0042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e6ff100-c552-4413-8e26-01fd3c4bbbc5")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 46.99 175.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000602c40d5")
+		(property "Reference" "D19"
+			(at 49.022 174.0916 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Z3V6"
+			(at 49.022 176.403 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 46.99 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 46.99 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "202b481d-667c-4d79-93d3-9e3470f5e109")
+		)
+		(pin "1"
+			(uuid "66a11ace-b932-4560-b352-da12112afbba")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hodor-rescue:GND-power")
+		(at 46.99 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000602c40db")
+		(property "Reference" "#PWR0110"
+			(at 46.99 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 47.117 186.0042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d99231c2-fad5-406b-a1e3-cea0f12c32d1")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 226.06 50.165 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000602e5fb5")
+		(property "Reference" "T32"
+			(at 226.7204 48.6918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GND"
+			(at 229.0318 48.6918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 226.06 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 226.06 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05215767-d077-44e6-bb27-3af23fdc8241")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "T32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 226.06 41.275 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000602e6662")
+		(property "Reference" "T11"
+			(at 226.7204 39.8018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3V3"
+			(at 229.0318 39.8018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 226.06 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 226.06 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a47568f-d260-40a4-8b6a-69aee97b9316")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "T11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 226.06 32.385 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000602e6bed")
+		(property "Reference" "T12"
+			(at 226.7204 30.9118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5V"
+			(at 229.0318 30.9118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 226.06 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 226.06 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4057023-96ad-4c4d-b406-bd0999abf6d9")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "T12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hodor-rescue:GND-power")
+		(at 215.9 52.705 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000602e8b91")
+		(property "Reference" "#PWR0112"
+			(at 215.9 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 216.027 57.0992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48fd2396-cc27-43fa-b7ee-49493e5cb93e")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hodor-rescue:+3V3-power")
+		(at 215.9 27.305 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000602e8f3e")
+		(property "Reference" "#PWR0113"
+			(at 215.9 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 216.281 22.9108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8a4dab3-2c71-49d4-941c-78302af73100")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hodor-rescue:+5V-power")
+		(at 220.98 27.305 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000602e9965")
+		(property "Reference" "#PWR0114"
+			(at 220.98 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 221.361 22.9108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e168f25c-7dbe-497c-87b5-d1d98e4cc126")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hodor-rescue:GND-power")
+		(at 80.01 122.555 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "016115b2-4220-4168-ab3a-edf23212c566")
+		(property "Reference" "#PWR0119"
+			(at 80.01 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 80.137 126.9492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1f57e13-a272-4414-a52f-3825ef64fb4f")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 70.485 108.585 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1038714b-42bb-4eb5-a412-3feb030521de")
+		(property "Reference" "R61"
+			(at 75.7428 108.585 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "18.2k"
+			(at 73.4314 108.585 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 72.263 108.585 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 70.485 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 70.485 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "83b18839-6391-4735-9b5c-60dd1e2dc3a5")
+		)
+		(pin "1"
+			(uuid "f99b5d86-2af3-40e9-86fd-39b553f897eb")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "R61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hodor-rescue:GND-power")
+		(at 182.245 97.155 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "109e7130-6341-478d-8b28-7f64bb3d360d")
+		(property "Reference" "#PWR0128"
+			(at 182.245 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 182.372 101.5492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.245 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.245 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.245 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c67ee9ed-2a39-4c1d-a9ef-2c484fdb1d52")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "#PWR0128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 102.87 175.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15125c8e-f3bc-4fe8-add1-4eb0922b67c5")
+		(property "Reference" "D24"
+			(at 104.902 174.0916 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Z3V6"
+			(at 104.902 176.403 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 102.87 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 102.87 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bedf762c-f4a6-4ae0-a4fe-e86996368e4e")
+		)
+		(pin "1"
+			(uuid "ee4a77f1-9140-4f13-b1ee-662e41cfbd72")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 28.575 85.725 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1fddb779-b7a4-47f5-9cfd-3819693f2aae")
+		(property "Reference" "C45"
+			(at 31.496 84.5566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 31.496 86.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 29.5402 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 28.575 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 28.575 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "beeb2104-4b4e-48fb-8186-f061dff53d5a")
+		)
+		(pin "1"
+			(uuid "ae7e4b15-b1bb-4253-804b-349c394cc77b")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hodor-rescue:+5V-power")
+		(at 182.245 78.105 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23b35b0a-99e1-45e7-bcf8-57edeac233f1")
+		(property "Reference" "#PWR0131"
+			(at 182.245 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 182.626 73.7108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.245 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.245 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.245 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2530f4e3-8ced-446c-b0e8-e0a08cabd4f4")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "#PWR0131")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 48.26 85.725 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25cd97ae-c65d-40c3-bbcd-35be05ea4771")
+		(property "Reference" "R41"
+			(at 53.5178 85.725 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "18.2k"
+			(at 51.2064 85.725 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 50.038 85.725 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 48.26 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9346d693-edb4-48de-8275-e694c1b0c322")
+		)
+		(pin "1"
+			(uuid "1602cdb4-f6dd-4f83-8ee6-431d8dafe8f7")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hodor-rescue:GND-power")
+		(at 83.82 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "266ade84-b6f7-4c97-817b-c8bba525555d")
+		(property "Reference" "#PWR09"
+			(at 83.82 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.947 186.0042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9af1770-95b2-4e5d-886a-222987984e4b")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hodor-rescue:L_Ferrite-Device")
+		(at 80.645 31.115 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27b9249f-8a12-4bb9-8533-111dc4821c3b")
+		(property "Reference" "L3"
+			(at 80.645 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7uH/3.5A"
+			(at 80.645 27.7114 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_Wuerth_HCI-7030"
+			(at 80.645 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.645 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.645 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8728b66-b4c0-43e5-9423-c9a65029dccf")
+		)
+		(pin "2"
+			(uuid "b1e20857-2324-4350-b642-ea6f4e95f006")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "L3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 264.16 159.385 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35830794-7dc1-410a-b5f1-9bd617286cdd")
+		(property "Reference" "H4"
+			(at 266.7 158.2166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 266.7 160.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 264.16 159.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 159.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 264.16 159.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 102.87 170.18 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35be84b6-68e6-4b92-b76e-c490f1dd56b3")
+		(property "Reference" "T14"
+			(at 104.3432 169.5196 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "V_{BUS}_SENSE"
+			(at 104.3432 167.2082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 97.79 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 102.87 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8251436-adeb-453f-9aca-dca2759d325d")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "T14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 83.82 175.26 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37dc919f-7fff-4ca4-9992-8f755cd81719")
+		(property "Reference" "R42"
+			(at 89.0778 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k"
+			(at 86.7664 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 85.598 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 83.82 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8f24e65-b811-4256-8293-d10ef4629a9e")
+		)
+		(pin "2"
+			(uuid "4ff2370c-e270-44fb-9ce4-f9bfb5ed0c63")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hodor-rescue:GND-power")
+		(at 240.03 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a28c58d-ca9d-446f-8c42-a9a4ae2b022d")
+		(property "Reference" "#PWR0133"
+			(at 240.03 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 240.157 104.7242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0169ceb3-c454-4715-bf41-da713b8fa6ef")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "#PWR0133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 146.05 86.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f498a51-95f9-476a-b41a-d1e005eeef84")
+		(property "Reference" "R73"
+			(at 151.3078 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "18.2k"
+			(at 148.9964 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 147.828 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 146.05 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b72c0762-f183-4069-ae23-a09cfd20de5b")
+		)
+		(pin "1"
+			(uuid "cc2fcb1b-542a-464c-b71b-228e2825bfb9")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "R73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hodor-rescue:GND-power")
+		(at 146.05 99.695 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "417ad1fc-776e-4dde-8c5c-4821626975c9")
+		(property "Reference" "#PWR0121"
+			(at 146.05 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 146.177 104.0892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e1c8a73-decd-49b8-ae14-8389265e575e")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "#PWR0121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hodor-rescue:GND-power")
+		(at 62.23 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "424dabd9-dabd-479f-8482-9073c69f83f8")
+		(property "Reference" "#PWR0118"
+			(at 62.23 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 62.357 117.4242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4eadb726-0f03-4ad6-8571-25048e925618")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 137.16 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43bf9cc5-dfec-4cdd-9995-c882cf5d60ea")
+		(property "Reference" "C62"
+			(at 139.065 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 139.7 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 138.1252 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 137.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5a6de3c1-59dc-43b8-afe3-2014a35928f5")
+		)
+		(pin "1"
+			(uuid "5f6cfccb-3314-405b-8316-2432bfb19bc0")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "C62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 127 84.455 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "474989d7-e3b6-4f26-a9d6-e11067d377eb")
+		(property "Reference" "C58"
+			(at 129.921 83.2866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 129.921 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 127.9652 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 127 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8b90c37d-8303-4477-9e48-c4f4cd305412")
+		)
+		(pin "1"
+			(uuid "c7d301af-19f1-48ca-8949-0f8c92a641fc")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "C58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 230.505 86.995 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4bcad9a5-18e5-4f09-85c6-63299fee66f3")
+		(property "Reference" "C64"
+			(at 233.426 85.8266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 233.426 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 231.4702 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 230.505 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 230.505 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a0dbc367-32a1-4055-bfe8-b31b1e99441d")
+		)
+		(pin "1"
+			(uuid "7219ec14-2741-481d-9909-0cea28e97e09")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "C64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hodor-rescue:GND-power")
+		(at 28.575 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57f60def-36f7-426b-a86b-d81aa2861702")
+		(property "Reference" "#PWR0117"
+			(at 28.575 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 28.702 97.1042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 28.575 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 28.575 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 28.575 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8434d33f-7b83-485d-89a5-3100f1a39f90")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 48.26 97.155 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c88c6e4-1f53-411a-a4b0-6d7dd10e2761")
+		(property "Reference" "R58"
+			(at 53.5178 97.155 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "18.2k"
+			(at 51.2064 97.155 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 50.038 97.155 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 48.26 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e7effda0-c3f5-439d-9663-007c859880fd")
+		)
+		(pin "1"
+			(uuid "1a38b3f7-a372-4628-a6fe-7c27ea28e9f4")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "R58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Switching:TLV62569DBV")
+		(at 202.565 85.725 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f6df2ae-339c-4771-843f-d72af9a376b3")
+		(property "Reference" "U2"
+			(at 202.565 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV62569DBV"
+			(at 202.565 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 203.835 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv62569.pdf"
+			(at 196.215 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 2A, SOT-23-5"
+			(at 202.565 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e2f64378-519d-4f6b-a4ba-dddcbe2251a7")
+		)
+		(pin "4"
+			(uuid "0ef6c536-2516-4db4-922f-1ef5c20161bf")
+		)
+		(pin "1"
+			(uuid "3990686c-c5d0-4bbe-91c0-95fed0aa408c")
+		)
+		(pin "3"
+			(uuid "73aa9d0e-2ecd-48d1-800b-45096f50ff7e")
+		)
+		(pin "5"
+			(uuid "59a7ba42-5dde-4098-95eb-ee063ccdb995")
+		)
+		(instances
+			(project ""
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 182.245 86.995 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "603f595a-73d5-45bc-bf02-bee5d5006c97")
+		(property "Reference" "C63"
+			(at 185.166 85.8266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 185.166 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 183.2102 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.245 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 182.245 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a962383f-7353-450d-a580-52605ffa671a")
+		)
+		(pin "1"
+			(uuid "33b9dd2c-bcd8-492b-8eb4-b7b33b3d7e42")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "C63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 80.01 113.03 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6309a89d-91fb-4689-b6da-f06aa79021a5")
+		(property "Reference" "C61"
+			(at 82.931 114.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 82.931 111.887 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 80.9752 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 80.01 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f9f5c9b4-1445-4163-b610-9e338ff00ee8")
+		)
+		(pin "1"
+			(uuid "fe110bcf-32ac-4c54-9009-2c77819a041c")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "C61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Converter_DCDC:TPS54240DRC")
+		(at 83.185 89.535 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e7d1f44-5481-4591-8e50-7fdf3292e8fc")
+		(property "Reference" "U5"
+			(at 83.185 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS54240DRC"
+			(at 83.185 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SON:Texas_DRC0010J_ThermalVias"
+			(at 83.185 73.787 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps54240.pdf"
+			(at 83.185 68.199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.5-V to 42-V 2.5A Step-Down DC DC Converter, VSON-10"
+			(at 83.185 70.993 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "10d99c59-0570-45c3-b608-b6315a81b72c")
+		)
+		(pin "10"
+			(uuid "8ff52c1f-bcb5-4024-aabc-6a696aa9b273")
+		)
+		(pin "1"
+			(uuid "c1e1a1ca-7804-406c-9390-452423f4bfb8")
+		)
+		(pin "7"
+			(uuid "3a39f1a8-83d0-482c-94f4-1c7d571afb23")
+		)
+		(pin "6"
+			(uuid "9d6753ea-1c0f-4885-991f-6fe7f3c0cc98")
+		)
+		(pin "8"
+			(uuid "a6272a16-5657-4178-a02a-792a4ec30b52")
+		)
+		(pin "11"
+			(uuid "de6a1375-3e42-4096-b605-4038b6cb10b3")
+		)
+		(pin "9"
+			(uuid "c6765b9c-ef51-4eb3-b033-cc7d7e086644")
+		)
+		(pin "5"
+			(uuid "d8c6b0e0-5075-4018-a572-742b8e925737")
+		)
+		(pin "2"
+			(uuid "32d5a72f-3fa8-404b-9d1e-91d71d38919d")
+		)
+		(pin "3"
+			(uuid "c1517cd9-84e4-4dd8-aed6-025e309667db")
+		)
+		(instances
+			(project ""
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hodor-rescue:GND-power")
+		(at 202.565 98.425 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76a26776-1dd1-4dd6-9989-bd15dfb272db")
+		(property "Reference" "#PWR0124"
+			(at 202.565 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 202.692 102.8192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 202.565 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 202.565 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 202.565 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d27e0ead-6d4a-41de-8f54-81c42c0ffb46")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hodor-rescue:GND-power")
+		(at 102.87 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7805eecc-bc8e-4009-b00e-d2b5dd0ae89a")
+		(property "Reference" "#PWR0127"
+			(at 102.87 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.997 186.0042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7cd01985-e9d9-429c-828e-3ec3e0558ea3")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hodor-rescue:GND-power")
+		(at 137.16 99.695 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "79a93de6-9a15-4c83-9694-874d9b16ecbd")
+		(property "Reference" "#PWR0123"
+			(at 137.16 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.287 104.0892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0717de21-49a0-4942-ba97-f35745e6be05")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hodor-rescue:GND-power")
+		(at 92.71 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e25a8cc-6641-4e2e-9781-8e919cebba4f")
+		(property "Reference" "#PWR047"
+			(at 92.71 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.837 186.0042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04701d6c-f9fe-4268-8d99-df94f3ab2a38")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 111.76 83.185 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84c08f75-a9e3-4a57-9a86-3f7d52a022cf")
+		(property "Reference" "D16"
+			(at 114.935 81.5974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 114.935 84.1374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 111.76 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "78baae70-5c8d-4967-8f77-34f73776c1c7")
+		)
+		(pin "1"
+			(uuid "ddf24e59-936f-4411-beda-fd0f4f55e101")
+		)
+		(instances
+			(project ""
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 103.505 31.115 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "880c5ee7-78fc-465b-96f2-75d170a3203a")
+		(property "Reference" "T9"
+			(at 104.9782 30.4546 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "V_{DC}"
+			(at 104.9782 28.1432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 98.425 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 98.425 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 103.505 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1818ea1-99f8-4111-9d54-a8dbe538bda0")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "T9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mm_parts:JLCPCB_ToolingHole")
+		(at 221.615 157.48 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a3e7ffc-cd7a-4361-89f9-a64f23d7bc03")
+		(property "Reference" "H5"
+			(at 224.79 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JLCPCB_ToolingHole"
+			(at 224.79 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "mm_parts_footprints:JLCPCB_ToolingHole"
+			(at 221.615 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 221.615 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "JLCPCB Tooling Hole"
+			(at 221.615 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mm_parts:JLCPCB_ToolingHole")
+		(at 221.615 143.51 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d20d062-817e-41ae-9795-681018af5deb")
+		(property "Reference" "H1"
+			(at 224.79 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JLCPCB_ToolingHole"
+			(at 224.79 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "mm_parts_footprints:JLCPCB_ToolingHole"
+			(at 221.615 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 221.615 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "JLCPCB Tooling Hole"
+			(at 221.615 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hodor-rescue:GND-power")
+		(at 83.185 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f07503a-6459-4bd1-9cfa-e8ec263fa5cb")
+		(property "Reference" "#PWR0120"
+			(at 83.185 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.185 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.185 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.185 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.185 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf8a5f92-2352-4365-bad6-e8830244949a")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hodor-rescue:GND-power")
+		(at 111.76 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "937451c8-9a4d-4e40-aac4-f6b5c3ecf423")
+		(property "Reference" "#PWR0122"
+			(at 111.76 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.887 105.9942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfe9c4ca-ad0f-4443-a106-cd360ee5b60b")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "#PWR0122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Iron")
+		(at 217.17 83.185 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9716c5f4-b998-42a3-a509-a341cf7d82a5")
+		(property "Reference" "L14"
+			(at 217.17 76.835 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2uH"
+			(at 217.17 79.375 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1812_4532Metric"
+			(at 217.17 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor with iron core"
+			(at 217.17 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c91f87a4-47c5-419b-af59-f9367eae8804")
+		)
+		(pin "2"
+			(uuid "f3b38261-b197-4a49-a46d-c7c8562582ab")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "L14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hodor-rescue:+5V-power")
+		(at 146.05 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9bd7ff3e-849e-4e24-a464-a643541a331b")
+		(property "Reference" "#PWR0115"
+			(at 146.05 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 146.431 71.8058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f51212c-28d5-4c02-8336-27a04eb7c563")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 146.05 95.885 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9dfe362d-5485-47f5-b0f0-1a929ffb129e")
+		(property "Reference" "R74"
+			(at 151.3078 95.885 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "18.2k"
+			(at 148.9964 95.885 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 147.828 95.885 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 146.05 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d48a50b3-02f0-4334-8610-c09facefc537")
+		)
+		(pin "1"
+			(uuid "c43fb507-77e9-4b86-9f2d-91987c670d09")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "R74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mm_parts:JLCPCB_ToolingHole")
+		(at 221.615 150.495 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a191d9e5-1b64-4912-a53f-83ba8b57beb9")
+		(property "Reference" "H2"
+			(at 224.79 149.2249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JLCPCB_ToolingHole"
+			(at 224.79 151.7649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "mm_parts_footprints:JLCPCB_ToolingHole"
+			(at 221.615 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 221.615 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "JLCPCB Tooling Hole"
+			(at 221.615 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hodor-rescue:VBUS-power")
+		(at 153.035 27.305 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a53cef81-59d8-4986-8978-cda259a4dc17")
+		(property "Reference" "#PWR067"
+			(at 153.035 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_{BUS}"
+			(at 153.416 22.9108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.035 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.035 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.035 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca0b7593-e871-4d2c-a08b-781403fcb4c1")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 99.695 50.165 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b5ff5821-b940-442e-bcfa-7e4f4685fa85")
+		(property "Reference" "T1"
+			(at 100.3554 51.6382 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.775 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 99.695 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.695 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 99.695 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c23376f7-7849-468a-a7e3-bc9ceb1657eb")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "T1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 38.735 85.725 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba182cb0-52d1-4aff-8b85-e2160fb1dcb6")
+		(property "Reference" "C46"
+			(at 41.656 84.5566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 41.656 86.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 39.7002 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.735 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 38.735 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "61e54f1c-3d43-49e9-bf6f-a946b4a17bcf")
+		)
+		(pin "1"
+			(uuid "721e1c80-f6f5-46d3-a34e-349a51319f86")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "C46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_AAK")
+		(at 116.205 31.115 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bae1f5e3-84ff-4321-b52f-943768de5dea")
+		(property "Reference" "D22"
+			(at 114.9985 24.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "V10PM45"
+			(at 114.9985 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
+			(at 116.205 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.205 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, anode on pins 1 and 2"
+			(at 116.205 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "41e5709f-89a1-4ddb-9cb0-d747c56daa0b")
+		)
+		(pin "1"
+			(uuid "908f356f-8614-4aed-b774-775670bbb8c3")
+		)
+		(pin "2"
+			(uuid "8d1d21d7-8d8f-4427-9226-1a7cf5d94b17")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 70.485 117.475 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bcb09f9e-bdba-43ad-a820-fd3f49937f6b")
+		(property "Reference" "C60"
+			(at 73.66 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 73.66 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 71.4502 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 70.485 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 70.485 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "698f53a0-3c89-4288-ac6b-3689c2471860")
+		)
+		(pin "1"
+			(uuid "b4c0a717-4987-43d4-b3eb-23a13464a785")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "C60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hodor-rescue:VDC-power")
+		(at 28.575 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0a405cf-350b-4c9f-98e5-6873a9875cad")
+		(property "Reference" "#PWR0100"
+			(at 28.575 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_{DC}"
+			(at 28.956 74.3458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 28.575 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 28.575 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 28.575 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2cb9bc0a-0c24-4bd8-bf46-92f4e6abd59a")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 225.425 86.995 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c97efc1d-7185-4ff2-9648-534888311c4e")
+		(property "Reference" "C65"
+			(at 222.504 85.8266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 222.504 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 224.4598 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 225.425 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 225.425 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2a3dcb5a-9bd9-40fd-a2f3-226a792bff39")
+		)
+		(pin "1"
+			(uuid "458ea8bb-b473-45e9-8917-6a3200a3e4ee")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "C65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 29.21 31.115 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb134a0d-b9ba-46db-954d-ac68896e66c5")
+		(property "Reference" "J1"
+			(at 29.21 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 29.21 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal"
+			(at 29.21 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 29.21 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b50c6449-7e8b-466a-991e-c6162ee45dd5")
+		)
+		(pin "1"
+			(uuid "1c4e96cf-b03f-445c-8a6b-6445cded04e1")
+		)
+		(instances
+			(project ""
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 62.23 107.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cf91a265-10f2-4a77-bc29-451a3f9ce2d7")
+		(property "Reference" "R75"
+			(at 66.675 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "18.2k"
+			(at 64.77 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 64.008 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 62.23 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ea89a15a-c21c-4535-be55-b3c284e4a2d4")
+		)
+		(pin "1"
+			(uuid "fa208cbf-05ea-4fe2-9e40-aba1a7fc1165")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "R75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Iron")
+		(at 120.015 79.375 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db8ad175-ad41-4e1c-831f-5c7a0499295f")
+		(property "Reference" "L13"
+			(at 120.015 73.025 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L_Iron"
+			(at 120.015 75.565 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.015 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.015 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor with iron core"
+			(at 120.015 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6f5569b-8f9c-4d6f-8a03-1a255e212770")
+		)
+		(pin "2"
+			(uuid "24de1f68-fbe8-412b-b69e-972bccded4d3")
+		)
+		(instances
+			(project ""
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "L13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 240.03 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dfd3f819-5227-4f76-ac23-4cce0a098aaa")
+		(property "Reference" "R77"
+			(at 245.2878 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 242.9764 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 241.808 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 240.03 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c92a2875-ca83-49a9-b943-56c6f925afa8")
+		)
+		(pin "1"
+			(uuid "5f1e391d-38f7-48e5-99d4-34da5297472f")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "R77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 240.03 86.995 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e31240f7-84b0-41be-9404-b32e7ad83871")
+		(property "Reference" "R76"
+			(at 245.2878 86.995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470k"
+			(at 242.9764 86.995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 241.808 86.995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 240.03 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3da164df-3c50-4c3d-bb9d-932ba52c01e5")
+		)
+		(pin "1"
+			(uuid "feb73ae6-b110-4496-a679-21e47e5adcc8")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "R76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 92.71 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e743f7a6-f7b3-4489-b2c7-030f74249b43")
+		(property "Reference" "C38"
+			(at 95.631 174.0916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 95.631 176.403 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 93.6752 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 92.71 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a61b0bfe-bf0f-4623-9b78-609543cce296")
+		)
+		(pin "1"
+			(uuid "3b5040e1-5837-4152-83b3-6bbd4d0050b6")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hodor-rescue:+3V3-power")
+		(at 240.03 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eda6cc57-ee0f-4426-99cb-0898dd933542")
+		(property "Reference" "#PWR0116"
+			(at 240.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 240.411 74.3458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3724528c-0bcf-42f7-8e00-eaefc26a52f6")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 71.755 42.545 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee0c8387-dff5-4f47-843c-647659cb2ee5")
+		(property "Reference" "C16"
+			(at 74.676 41.3766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u/50V"
+			(at 74.676 43.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 72.7202 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.755 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 71.755 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23a4d60f-c262-4097-8f88-ae0efab4b815")
+		)
+		(pin "2"
+			(uuid "749699d5-6358-4018-bdda-396f12e74ec1")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 46.99 170.18 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4d57bd2-44da-430a-9ebb-c07e71fc1a49")
+		(property "Reference" "T6"
+			(at 48.4632 169.5196 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "V_{DC}_SENSE"
+			(at 48.4632 167.2082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 41.91 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 46.99 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff534672-0183-4f2b-9658-9620fda2b6da")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "T6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 55.88 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f67f8a87-4a48-42b5-9392-677fd84a6b7d")
+		(property "Reference" "C57"
+			(at 57.785 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 57.15 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 56.8452 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 55.88 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "868c9a20-9d29-436e-ad68-e29d757c73d3")
+		)
+		(pin "1"
+			(uuid "c700ec77-f14f-4649-926a-d2e7a4c479a8")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "C57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 101.6 83.185 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc0a940f-ce31-4c4b-8228-a8233c96875f")
+		(property "Reference" "C59"
+			(at 104.521 84.3534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 104.521 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 102.5652 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 101.6 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "09e9b37f-1cde-4ba7-b7ac-0f7151647c30")
+		)
+		(pin "1"
+			(uuid "622f5c91-9375-4c51-8596-7fcedfce5f29")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "C59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 153.035 31.115 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc8d8a99-79ae-4cdf-827f-b6aaeec98825")
+		(property "Reference" "T10"
+			(at 153.6954 32.5882 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "V_{BUS}"
+			(at 158.75 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 153.035 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.035 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 153.035 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18b92aa1-83bc-48fd-b5ea-69872c1b946a")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "T10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hodor-rescue:VBUS-power")
+		(at 83.82 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fce0f2a3-ca05-45ac-9b9a-c1fe4bae22b8")
+		(property "Reference" "#PWR0129"
+			(at 83.82 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_{BUS}"
+			(at 84.201 153.0858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a568323a-5e79-4043-9919-6feb34a5c54c")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 83.82 165.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe19c6ed-0cc0-4498-9068-e5b77b366b0b")
+		(property "Reference" "R39"
+			(at 89.0778 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "18.2k"
+			(at 86.7664 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 85.598 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 83.82 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "df878fa5-384d-4d2c-b477-bd69c6b9d132")
+		)
+		(pin "1"
+			(uuid "aa88d2e6-8b05-4815-ae38-d486d3a4585e")
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
