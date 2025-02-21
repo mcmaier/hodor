@@ -28,3 +28,14 @@
 ######################
 .DS_Store
 Thumbs.db
+
+# HW Design files #
+######################
+*.bak
+*.kicad_pcb-bak
+*.sch-bak
+*.tmp
+*.tmp1
+*.tmp2
+*.kicad_pcb~
+*.sch~
