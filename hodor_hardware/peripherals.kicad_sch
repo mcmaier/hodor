@@ -10673,10 +10673,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "87d0900b-6caa-425b-a6bb-bd307dbb1430")
+			(uuid "87d0900b-6caa-425b-a6bb-bd307dbb1431")
 		)
 		(pin "6"
-			(uuid "75c3dc1d-784c-444a-824d-d91176d6c279")
+			(uuid "75c3dc1d-784c-444a-824d-d91176d6c27a")
 		)
 		(pin "4"
 			(uuid "e7ee3036-10f0-473c-8f42-3c370a58e95c")
@@ -10688,7 +10688,7 @@
 			(uuid "8cc382b7-ed95-48d0-b312-da2a63f057af")
 		)
 		(pin "1"
-			(uuid "eed53862-2d58-4238-8583-cd680d6138b8")
+			(uuid "eed53862-2d58-4238-8583-cd680d6138b9")
 		)
 		(instances
 			(project "hodor_hardware"
@@ -11435,10 +11435,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "87d0900b-6caa-425b-a6bb-bd307dbb1431")
+			(uuid "87d0900b-6caa-425b-a6bb-bd307dbb1432")
 		)
 		(pin "6"
-			(uuid "75c3dc1d-784c-444a-824d-d91176d6c27a")
+			(uuid "75c3dc1d-784c-444a-824d-d91176d6c27b")
 		)
 		(pin "4"
 			(uuid "4e584458-0bd2-4c57-8662-d04e404a9d81")
@@ -11450,7 +11450,7 @@
 			(uuid "1f391e25-b5ad-4c17-a062-50de3f428873")
 		)
 		(pin "1"
-			(uuid "eed53862-2d58-4238-8583-cd680d6138b9")
+			(uuid "eed53862-2d58-4238-8583-cd680d6138ba")
 		)
 		(instances
 			(project "hodor_hardware"
