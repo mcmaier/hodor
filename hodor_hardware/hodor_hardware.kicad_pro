@@ -488,7 +488,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "hodor_hardware.step",
       "svg": "",
       "vrml": ""
     },
@@ -626,7 +626,7 @@
     ],
     [
       "efd4ec69-52b7-4b82-b6f7-297e43729fd0",
-      "Controller"
+      "Controllerboard"
     ],
     [
       "d9462714-63c5-4d20-a6ea-aefea568c44f",

@@ -11,10 +11,10 @@
 		(company "smartintech.de")
 	)
 	(lib_symbols)
-	(text_box "HODOR - Highly flexible Open-source Door Operation Regulator\n\"Holds your door\"\n\nA universal controller for brushed DC motors from 12 to 24 V supply voltage\nwith H-bridge driver, current sensor and quadrature encoder interface. \nInterfaced by programmable inputs, outputs and relays.\nConfiguration and smart home integration via Wi-Fi."
+	(text_box "HODOR - Highly flexible Open-source Door Operation Regulator\n(A sliding door motor controller)\nHODOR - \"Holds your door\"\n\nA universal controller for brushed DC motors from 12 to 24 V supply voltage\nwith H-bridge driver, current sensor and quadrature encoder or end-switch interface. \nInterfaced by programmable inputs, outputs and relays.\nConfiguration and smart home integration via Wi-Fi."
 		(exclude_from_sim no)
 		(at 15.875 15.875 0)
-		(size 80.645 16.51)
+		(size 86.995 17.78)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -838,7 +838,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "efd4ec69-52b7-4b82-b6f7-297e43729fd0")
-		(property "Sheetname" "Controller"
+		(property "Sheetname" "Controllerboard"
 			(at 118.11 42.4684 0)
 			(effects
 				(font
