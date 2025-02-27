@@ -1,4 +1,4 @@
-24751255581766337
+24754736868729784
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99518,6 +99518,20 @@ Conn_Header2.54_1x04_SMD
 0
 4
 4
+hodor_footprints
+HVQFN-28-1EP_6x6mm_MC33HB2002
+QFN, 28 Pin (https://www.semtech.com/uploads/documents/sx1272.pdf#page=125), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+42
+29
+hodor_footprints
+JLCPCB_ToolingHole
+JLCPCB Tooling Hile
+JLCPCB tooling hole
+0
+0
+0
 hodor_footprints
 SSD1306_OLED_Horizontal
 Through hole angled pin header, 1x04, 2.54mm pitch, 6mm pin length, single row
