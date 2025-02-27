@@ -492,7 +492,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "kicad-embed://smartintech_sheet.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,

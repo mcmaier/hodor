@@ -11209,7 +11209,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Nexperia_DSN1608-2_1.6x0.8mm"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 41.91 41.275 0)
 			(effects
 				(font
@@ -11847,7 +11847,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Nexperia_DSN1608-2_1.6x0.8mm"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 40.005 73.025 0)
 			(effects
 				(font
@@ -11856,7 +11856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PTVS26VZ1USK.pdf"
+		(property "Datasheet" ""
 			(at 44.45 73.025 0)
 			(effects
 				(font
@@ -11865,7 +11865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "26V, 1850W TVS unidirectional diode, DSN1608-2"
+		(property "Description" ""
 			(at 44.45 73.025 0)
 			(effects
 				(font
@@ -15112,7 +15112,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Nexperia_DSN1608-2_1.6x0.8mm"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 47.625 142.24 0)
 			(effects
 				(font
@@ -15121,7 +15121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PTVS26VZ1USK.pdf"
+		(property "Datasheet" ""
 			(at 52.07 142.24 0)
 			(effects
 				(font
@@ -15130,7 +15130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "26V, 1850W TVS unidirectional diode, DSN1608-2"
+		(property "Description" ""
 			(at 52.07 142.24 0)
 			(effects
 				(font
@@ -15844,7 +15844,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Nexperia_DSN1608-2_1.6x0.8mm"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 43.815 107.95 0)
 			(effects
 				(font
@@ -15853,7 +15853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PTVS26VZ1USK.pdf"
+		(property "Datasheet" ""
 			(at 48.26 107.95 0)
 			(effects
 				(font
@@ -15862,7 +15862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "26V, 1850W TVS unidirectional diode, DSN1608-2"
+		(property "Description" ""
 			(at 48.26 107.95 0)
 			(effects
 				(font
