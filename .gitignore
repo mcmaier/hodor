@@ -1,3 +1,10 @@
+# ESP Build & Co #
+##################
+
+build/
+sdkconfig
+sdkconfig.old
+
 # Compiled source #
 ###################
 *.com
