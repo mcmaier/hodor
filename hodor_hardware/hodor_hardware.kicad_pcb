@@ -36262,7 +36262,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -36275,7 +36275,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -42266,7 +42266,7 @@
 			)
 		)
 		(property "Value" "ESP32-S3-WROOM-1_N8R2"
-			(at 0 14.6 -90)
+			(at 0 14.6 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "a7176088-9796-402e-a826-c9fa04cad030")
@@ -42278,7 +42278,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -42291,7 +42291,7 @@
 			)
 		)
 		(property "Description" "RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, onboard antenna, SMD"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -42543,7 +42543,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.6 -90)
+			(at 0 -0.6 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "bfbdbb72-cad2-44bc-b325-69f1ade1ce08")
@@ -50067,7 +50067,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -50080,7 +50080,7 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)

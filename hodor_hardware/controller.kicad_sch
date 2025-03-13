@@ -6906,7 +6906,7 @@
 	)
 	(text "Reset controller"
 		(exclude_from_sim no)
-		(at 64.135 8.89 0)
+		(at 66.04 15.875 0)
 		(effects
 			(font
 				(size 1.27 1.27)
