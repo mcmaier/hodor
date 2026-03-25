@@ -1,0 +1,6 @@
+[submodule "hodor-hardware"]
+	path = hodor-hardware
+	url = https://github.com/mcmaier/hodor-hardware.git
+[submodule "hodor-software"]
+	path = hodor-software
+	url = https://github.com/mcmaier/hodor-software.git
